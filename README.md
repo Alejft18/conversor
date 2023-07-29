@@ -3,11 +3,17 @@ En este proyecto encontraras 2 tipos de conversores: **conversor de divisas** y 
 
 ## ¿Como funciona?
 + Arranca el proyecto
-+ Selecciona el conversor de tuy eleccion
++ Selecciona el conversor de tu eleccion   
+<p align="center">
+  <img src="https://github.com/Alejft18/conversor/assets/107004566/00f3c1cd-cf43-4676-b825-69a5e5ddd6ed" alt="segundo paso">
+</p>
+  
 + Elige la opcion del conversor
+<p align="center">
+  <img src="https://github.com/Alejft18/conversor/assets/107004566/005f86c0-b46d-4cd5-b02a-f39ecd7350b7" alt="tercer paso">
+</p>
+  
 + Ingresa los datos y mira los resultados
-![imagen primer paso](https://github.com/Alejft18/conversor/assets/107004566/00f3c1cd-cf43-4676-b825-69a5e5ddd6ed)
-
-
-
-
+<p align="center">
+  <img src="https://github.com/Alejft18/conversor/assets/107004566/4189cb85-53b2-4dc1-85d6-7264c1dc09ac" alt="Cuarto paso">
+</p>
