@@ -1,7 +1,7 @@
-# proyecto conversor
+# proyecto conversor 
 En este proyecto encontraras 2 tipos de conversores: **conversor de divisas** y **conversor de binarios**
 
-## ¿Como funciona?
+## ¿Como funciona? 🔩
 + Arranca el proyecto
 + Selecciona el conversor de tu eleccion   
 <p align="center">
@@ -17,3 +17,8 @@ En este proyecto encontraras 2 tipos de conversores: **conversor de divisas** y 
 <p align="center">
   <img src="https://github.com/Alejft18/conversor/assets/107004566/4189cb85-53b2-4dc1-85d6-7264c1dc09ac" alt="Cuarto paso">
 </p>
+
+## Autor 👦🏾
+
+| <img src="https://github.com/Alejft18/conversor/assets/107004566/ab077582-b4cf-4791-a832-66c395810d84" width=115><br><sub>Josep Alejandro Forero Torres</sub> 
+:---: |
