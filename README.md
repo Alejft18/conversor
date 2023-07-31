@@ -1,7 +1,7 @@
-# Proyecto conversor 
-En este proyecto encontraras 2 tipos de conversores: **conversor de divisas**, **conversor de binarios** y **conversor de pesos**
+# Proyecto conversor 💱
+En este proyecto encontraras 3 tipos de conversores: **conversor de divisas**, **conversor de binarios** y **conversor de pesos**
 
-# Herramientas
+# Herramientas 🛠
 + Intellij IDE
 + Java development kit (JDK) 17
 
