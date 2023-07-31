@@ -1,5 +1,6 @@
 import Gestion.GestionBinarios;
 import Gestion.GestionDivisas;
+import Gestion.GestionPesos;
 
 import javax.swing.*;
 
@@ -8,11 +9,12 @@ public class Main {
 
         GestionDivisas gestion = new GestionDivisas();
         GestionBinarios gestionBinarios = new GestionBinarios();
+        GestionPesos gestionPesos =new GestionPesos();
 
         boolean seguir = true;
 
         do {
-            int opcion= Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opcion: \n 1. Conversor de divisas \n 2. Conversor de binarios"));
+            int opcion= Integer.parseInt(JOptionPane.showInputDialog("Ingrese una opcion: \n 1. Conversor de divisas \n 2. Conversor de binarios \n 3. Conversor de pesos"));
             switch (opcion){
 
                 case 1:
@@ -90,6 +92,24 @@ public class Main {
                     }
                     break;
 
+                case 3:
+                    int opPesos = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la opcion a realizar: \n 1. Libras a kilos \n 2. Kilos a libras"));
+                    switch (opPesos){
+                        case 1:
+                            double opLibras = Double.parseDouble(JOptionPane.showInputDialog("ingrese las libras a convertir: "));
+                            JOptionPane.showMessageDialog(null, gestionPesos.libraAKilo(opLibras));
+                            break;
+
+                        case 2:
+                            double opKilos = Double.parseDouble(JOptionPane.showInputDialog("ingrese los kilos a convertir: "));
+                            JOptionPane.showMessageDialog(null, gestionPesos.kiloALibra(opKilos));
+                            break;
+
+                        default:
+                            JOptionPane.showMessageDialog(null,"opcion invalida");
+                            break;
+                    }
+                    break;
                 default:
                     JOptionPane.showMessageDialog(null,"opcion invalida");
                     break;
